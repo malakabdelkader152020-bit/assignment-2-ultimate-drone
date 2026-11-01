@@ -1,0 +1,262 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ .body {
+     margin: 0 auto;
+     padding-top: 100px;
+     font-family: Arial, sans-serif;
+ }
+
+ :root {
+     --primary-color: #f5f3ff;
+ }
+
+ nav {
+     background-color: var(--primary-color);
+     padding-inline: 160px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: sticky;
+     left: 0px;
+     right: 0px;
+     top: 0px;
+     gap: 10px;
+     height: 100px;
+     z-index: 1000;
+     border-bottom: 1px solid #e5e0f5;
+ }
+
+ .logo {
+     display: flex;
+     gap: 15px;
+     width: 400px;
+     align-items: center;
+     color: white;
+ }
+
+ .logo img {
+     width: 50px;
+     display: flex;
+     align-items: center;
+     border-radius: 10px;
+ }
+
+ .logo h2 {
+     font-size: 28px;
+     color: #333;
+     margin: 0%;
+     white-space: nowrap;
+     float: left;
+ }
+
+ .links {
+     color: #7f6ffe;
+     text-align: center;
+     display: flex;
+     gap: 15px;
+ }
+
+ .links a {
+     text-decoration: none;
+     color: #333;
+     font-size: 18px;
+ }
+
+ .links a:hover {
+     color: #8b3dff;
+ }
+
+ .parent {
+     max-width: 1500px;
+     padding-inline: 160px;
+     background-color: #ffffff;
+     align-items: center;
+     margin: 40px auto;
+     display: flex;
+     gap: 80px;
+
+
+ }
+
+ .child1,
+ .child2 {
+     flex: 1;
+ }
+
+
+ .child1 {
+     width: 25%;
+     position: relative;
+     padding: 25px;
+     border: 2px solid #e5e5e5;
+     border-radius: 30px;
+ }
+
+ .child1 img {
+     width: 100%;
+     display: block;
+     border-radius: 20px;
+
+ }
+
+ .child2 {
+     width: 25%;
+ }
+
+ .child2 button {
+     background-color: #a684ff;
+     color: white;
+     border: none;
+     border-radius: 25px;
+     padding: 6px 15px;
+     font-weight: bold;
+
+
+ }
+
+ .cart {
+     background-color: #8f52ff;
+     color: white;
+     border: none;
+     padding: 22px;
+     border-radius: 40px;
+     font-size: 20px;
+     font-weight: bold;
+     font-family: inherit;
+     cursor: pointer;
+ }
+
+ .cart:hover {
+     background-color: #7a3df0;
+ }
+
+ .wish {
+     background-color: white;
+     color: #333;
+     border: 2px solid #d4d4d8;
+     padding: 22px;
+     border-radius: 40px;
+     font-size: 20px;
+     font-weight: bold;
+     font-family: inherit;
+     cursor: pointer;
+ }
+
+ .wish:hover {
+     border-color: #8f52ff;
+ }
+
+ .Features-container {
+     max-width: 1500px;
+     padding: 80px 160px;
+     margin: 0 auto;
+     background-color: var(--primary-color);
+     gap: 30px;
+     text-align: center;
+ }
+
+ .Feature-card {
+     max-width: 1540px;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 30px;
+ }
+
+ .card {
+     background-color: white;
+     padding: 40px;
+     border-radius: 25px;
+     border: 1px solid #ede9fe;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+ }
+
+ .card:hover {
+     transform: translateY(-8px);
+     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+     transition: 0.3s;
+ }
+
+ .card img {
+     width: 70px;
+     height: 70px;
+     padding: 20px;
+     border-radius: 18px;
+     display: block;
+ }
+
+ .creators {
+     max-width: 1540px;
+     margin: 60px auto 0;
+     background-color: #7f22fe;
+     color: white;
+     padding: 50px;
+     border-radius: 25px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+ }
+
+ .creators button {
+
+     background-color: white;
+     color: #7f22fe;
+     border: none;
+     border-radius: 40px;
+     padding: 22px 40px;
+     font-size: 20px;
+     font-weight: bold;
+     font-family: inherit;
+     cursor: pointer;
+ }
+
+ .class setup {
+     max-width: 1500px;
+     padding: 80px 160px;
+     margin: 0 auto;
+     background-color: var(--primary-color);
+     gap: 30px;
+     text-align: center;
+ }
+
+.setup {
+     max-width: 1500px;
+     padding: 80px 160px;
+     margin: 0 auto;
+     background-color: var(--primary-color);
+     gap: 30px;
+     text-align: center;
+ }
+.setup {
+     max-width: 1540px;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 30px;
+ }
+
+ .Essentials kits {
+     background-color: white;
+     padding: 40px;
+     border-radius: 25px;
+     border: 1px solid #ede9fe;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+ }
+
+ .kits:hover {
+     transform: translateY(-8px);
+     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+     transition: 0.3s;
+ }
+
+ .kits img {
+     width: 150px;
+     height: 150px;
+     padding: 20px;
+     border-radius: 18px;
+     display: block;
+ }
